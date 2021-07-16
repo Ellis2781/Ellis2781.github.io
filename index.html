@@ -7,9 +7,8 @@
 <style>
 body
 {
-background-image: url(https://images.unsplash.com/photo-1567622058083-200736df7570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-background-color: blue;
-backdrop-filter: blur(50px);
+background-image: url(https://github.com/Ellis2781/Ellis2781.github.io/blob/main/blur.jpg?raw=true);
+background-size: cover;
 }
 
 img 
@@ -20,61 +19,151 @@ margin: auto;
 
 h1
 {
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   width: 900px;
-  border: 15px solid red;
+/* border: 15px solid blue; */
   padding: 50px;
-  font-size: 70px;
+  font-size: 60px;
   margin: auto;
   text-align: center;
-  color: red;
+  color: black;
 }
 
 p
 {
+  font-family: 'Antic Slab', serif;
   font-weight: bold;
   width: 900px;
-  border: 15px solid red;
-  padding: 50px;
+/*  border: 15px solid red; */
   margin: auto;
-  font-size: 40px;
-  color: white;  
+  font-size: 20px;
+  color: black;
   text-align: center;
 }
 
 ul
 {
-color: white;
-font-size: 40px;
+color: black;
+font-size: 20px;
+list-style-type: none;
+margin-top: 50px;
+}
+
+div
+{
+margin: auto;
+text-align: center;
+}
+
+a
+{
+text-align: center;
+margin: auto;
+text-decoration: none;
+color: black;
+}
+
+#title
+{
+  /*id title specific css styling*/
+  font-weight: bold;
+  width: 900px;
+  padding: 0px;
+  font-size: 60px;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+#phrase
+{
+  font-weight: bold;
+  width: 900px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+li
+{
+text-decoration: none;
+display: inline;
+margin: 20px 2px 10px 100px;
+}
+
+#nav
+{
+text-align: center;
+text-decoration: none;
 }
 </style>
+
+<!-- Import "Quicksand google font" -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+
+
 
 </head>
 <body>
 <!-- Creates a link to the top of the page -->
 <a name="top"></a>
 
-<h1> Artistic Coverings Inc 
+<h1 id="title">
 <img src="https://raw.githubusercontent.com/Ellis2781/Ellis2781.github.io/main/logo_ac_sm_web-e1526236769959.jpg" width="100" height="100">
+Artistic Coverings Inc
 </h1>
 
-<p> Central Florida's Source for Exclusive Countertops! </p>
-<!-- This is the first description -->
+<p id="phrase">Central Florida's Source for Exclusive Countertops! </p>
 
+<!-- Line -->
+<hr>
+
+<!-- Page Navigator-->
+<ul id="nav">
+<li>
+<a href="#top">Home</a>
+</li>
+<li>
+<a href="#Who we are">Who we are</a>
+</li>
+<li>
+<a href="#Customer Service">Customer Service</a>
+</li>
+<li>
+<a href="#More Info"> More Info </a>
+</li>
+<li>
+<a href="#About Us">About Us</a>
+</li>
+<li>
+<a href="#Contact Us">Contact Us</a>
+</li>
+</ul>
+
+<!-- Who we are link -->
+<a name="Who we are"></a>
 <h1>
 Who we are
 </h1>
+
 <p>
-Artistic Coverings Inc is a Central Florida, Orlando area based countertop company. Artistic Coverings Inc provides our Central Florida customers with Granite, Quartz like Cambria and SileStone, other surfaces like Corian, Avonite, Stainless Steel, and many more countertop surfaces. For unique services we specialize in highly technical and creative custom Solid Surface projects, a service that sets us apart in the Orlando area. Our scope of work includes both new construction and remodels. We have worked on countertop projects for large commercial multi-unit and local government to residential kitchen and bath remodels. In addition to countertops we do bathroom partitions, custom bath-tub surrounds, custom shower bases and walls. We are located in the City of Longwood, just north of Orlando, Florida.  Call for a free estimate or to find out about our current countertop specials!
+Artistic Coverings Inc is a Central Florida, Orlando area based countertop company. Artistic Coverings Inc provides our Central Florida customers with Granite, Quartz like Cambria and SileStone, other surfaces like Corian, Avonite, Stainless Steel, and many more countertop surfaces. For unique services we specialize in highly technical and creative custom Solid Surface projects, a service that sets us apart in the Orlando area. Our scope of work includes both new construction and remodels. We have worked on countertop projects for large commercial multi-unit and local government to residential kitchen and bath remodels. In addition to countertops we do bathroom partitions, custom bath-tub surrounds, custom shower bases and walls. We are located in the City of Longwood, just north of Orlando, Florida. Call for a free estimate or to find out about our current countertop specials!
 </p>
 
-
-<!-- Customer Sercive -->
+<!-- Customer Service link -->
+<a name="Customer Service"></a>
+<!-- Customer Service -->
 <h1>
 Customer Service
 </h1>
+
 <p>
-Our goal is to have quality and integrity in the work we do. Artistic does not support unethical business practices. In addition to any manufacturer warranty we offer a one year warranty on our workmanship
+Our goal is to have quality and integrity in the work we do. Artistic does not support unethical business practices. In addition to any manufacturer warranty we offer a one year warranty on our workmanship.
 </p>
 <h1> QUICK TURN AROUND
 <ul>  
@@ -83,15 +172,16 @@ Our goal is to have quality and integrity in the work we do. Artistic does not s
 </h1>
 
 
-<h1> ONE YEAR WARRANTY 
+<h1> One Year Warranty 
 	<ul>
-	<li> WE offer a one year warranty on our workmanship </li>
+	<li> We offer a one year warranty on our workmanship. </li>
 	<ul/>
 </h1>
 
 
 
-
+<!-- About Us link -->
+<a name="More Info" </a>
 <h1> More info 
 <ul>
 	<li> 5345 Projects <li/>
@@ -103,8 +193,10 @@ Our goal is to have quality and integrity in the work we do. Artistic does not s
 
 
 <br>
-<!-- This is the first description -->
+<!-- About Us link -->
+<a name="About Us"></a>
 <h1> About Us </h1>
+
 <p>
 We are a private Corporation satisfying Central Florida Residential and Commercial clientele need for quality Kitchen and Bath countertops, table tops, shower stalls, Reception desks, Bathroom partitions and more. Our primary aim as part of the industry is to provide our customers with “service with integrity” on a timely basis.
 
@@ -115,15 +207,18 @@ Our facility with a fabrication shop and display room is located off Hwy 17-92 i
 <!-- This is a comment -->
 <br>
 <br>
-<h1 ALIGN=center> Contact Us </h1>
-<p ALIGN=center> Address: 706 Commerce Circle, Longwood, Florida 32750
+<!-- Contact Us link -->
+<a name="Contact Us"></a>
+<h1> Contact Us </h1>
+
+<p> Address: 706 Commerce Circle, Longwood, Florida 32750
 <br> Support & Sale: 407-478-5520
 <br> Time: Mon–Fri:
 09:00am–5:00pm 
 </p>
 
 
-<div ALIGN=center class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=706%20commerce%20circle%2C%20longwood%20florida%2032701&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="706 commerce circle, longwood florida 32701"></iframe></div>
+<div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=706%20commerce%20circle%2C%20longwood%20florida%2032701&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="706 commerce circle, longwood florida 32701"></iframe></div>
 
 <p>
 “They made the whole experience sooooooo easy!! ..They were pleasant to work with…I can’t recommend them enough”
